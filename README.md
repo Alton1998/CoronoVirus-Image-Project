@@ -12,6 +12,8 @@ We also need to consider what views we are considering. Since the [Kaggle Data S
 
 To load these images into Pytorch
 
+After loading these images lets get these images to Grayscale so that instead of 3 channels there is only one(i.e White and Black)
+
 We also need to perform Pytorch transformations. The following are the transformations we need to perform:
 
 - `Centering` - We can Center all our images using
@@ -39,6 +41,8 @@ We might also want to have some sort of validation data to try and improve our m
 1.  TorchXrayVision - an open source software to work with any chest xray datasets
 2.  Pandas
 3.  Pytorch
+4.  Pandas
+5.  OpenCV
 ## Tools
 
 1. Google Colab
