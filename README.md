@@ -12,10 +12,10 @@ To load these images into Pytorch
 
 We need to first convert the raw data into `Pytorch Tensors` these tensors need to be split into `X_train`,  `y_train` and `X_test` and `y_test`.
 
-`X_train` - contains a list of images meant for training
-`y_train` - contains a list of labels for train images
-`X_test` - contains a lisf of images meant for testing
-`y_test` - contains a list of labels for test images
+- `X_train` - contains a list of images meant for training
+- `y_train` - contains a list of labels for train images
+- `X_test` - contains a lisf of images meant for testing
+- `y_test` - contains a list of labels for test images
 
 We might also want to have some sort of validation data to try and improve our model.
 
