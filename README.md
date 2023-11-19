@@ -8,6 +8,8 @@ Download and merge the following data sets
 
 After downloading and merging the datasets we need to load these images into Pytorch for Deep Learning.
 
+We also need to consider what views we are considering. Since the [Kaggle Data Set]()
+
 To load these images into Pytorch
 
 We also need to perform Pytorch transformations. The following are the transformations we need to perform:
