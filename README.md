@@ -19,6 +19,9 @@ We need to first convert the raw data into `Pytorch Tensors` these tensors need 
 
 We might also want to have some sort of validation data to try and improve our model.
 
+- `X_train` - contains a list of images to perform validation
+- `y_train` - contains a list of labels for the validation images
+
 
 ### Reading Covid 19 Chest X-ray
  Before we go throug the Covid 19 X ray data set
