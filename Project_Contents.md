@@ -53,7 +53,7 @@ From this data set we take images that are labelled as COVID and the X-ray image
 
 The COVID images were stored in the following formats:
 
-<img width=300 src="https://github.com/Alton1998/CoronoVirus-Image-Project/assets/39479720/fcb6317e-ddfb-44e0-94f5-32977045d86a" title="Fig. 2 Covid File formats distribution"/>
+<img width=300 src="file-formats.png" title="Fig. 2 Covid File formats distribution"/>
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
