@@ -55,6 +55,9 @@ The COVID images were stored in the following formats:
 
 <img width=300 src="file-formats.png" title="Fig. 2 Covid File formats distribution"/>
 
+The COVID images that we have filtered does not have `.gz` files.
+
+
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
 - [2]. Mangal, A., Kalia, S., Rajgopal, H., Rangarajan, K., Namboodiri, V., Banerjee, S., & Arora, C. (2020). CovidAID: COVID-19 detection using chest X-ray. arXiv preprint arXiv:2004.09803.
