@@ -47,8 +47,7 @@ For our project we will be collecting data from 2 data sources:
 
 This data has the following distribution illustrated in the following image:
 
-![Covid-19 Dataset](https://github.com/ieee8023/covid-chestxray-dataset/blob/master/docs/hierarchy.jpg)
-
+<img width=300 src="hierarchy.jpg"/>
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
