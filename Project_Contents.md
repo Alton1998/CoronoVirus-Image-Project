@@ -49,6 +49,12 @@ This data has the following distribution illustrated in the following image:
 
 <img width=300 src="hierarchy.jpg" title="Fig. 1 COVID-19 Data Set Distribution"/>
 
+From this data set we take images that are labelled as COVID and the X-ray image is in the anteroposterior (AP) or in the anteroposterior supine position(AP Supine).
+
+The COVID images were stored in the following formats:
+
+![image](https://github.com/Alton1998/CoronoVirus-Image-Project/assets/39479720/fcb6317e-ddfb-44e0-94f5-32977045d86a)
+
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
 - [2]. Mangal, A., Kalia, S., Rajgopal, H., Rangarajan, K., Namboodiri, V., Banerjee, S., & Arora, C. (2020). CovidAID: COVID-19 detection using chest X-ray. arXiv preprint arXiv:2004.09803.
