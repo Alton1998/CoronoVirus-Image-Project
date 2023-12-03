@@ -40,14 +40,14 @@ In our project we will have the following tasks:
 
 For our project we will be collecting data from 2 data sources:
 
-1. [Covid 19 X-Ray DataSet](https://github.com/ieee8023/covid-chestxray-dataset)
+1. [Covid 19 X-Ray DataSet](https://github.com/ieee8023/covid-chestxray-dataset) [7]
 2. [Bacterial and Viral Pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
 #### [Covid 19 X-Ray DataSet](https://github.com/ieee8023/covid-chestxray-dataset)
 
 This data has the following distribution illustrated in the following image:
 
-<img width=300 src="hierarchy.jpg"/>
+<img width=300 src="hierarchy.jpg" title="Fig. 1 COVID-19 Data Set Distribution"/>
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
@@ -56,3 +56,4 @@ This data has the following distribution illustrated in the following image:
 - [4]. Khan, A. I., Shah, J. L., & Bhat, M. M. (2020). CoroNet: A deep neural network for detection and diagnosis of COVID-19 from chest x-ray images. Computer methods and programs in biomedicine, 196, 105581.
 - [5]. Ozturk, T., Talo, M., Yildirim, E. A., Baloglu, U. B., Yildirim, O., & Acharya, U. R. (2020). Automated detection of COVID-19 cases using deep neural networks with X-ray images. Computers in biology and medicine, 121, 103792.
 - [6]. Wang, L., Lin, Z. Q., & Wong, A. (2020). Covid-net: A tailored deep convolutional neural network design for detection of covid-19 cases from chest x-ray images. Scientific reports, 10(1), 19549.
+- [7]. Cohen, J. P., Morrison, P., & Dao, L. (2020). COVID-19 image data collection. arXiv preprint arXiv:2003.11597.
