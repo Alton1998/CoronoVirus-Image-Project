@@ -57,6 +57,8 @@ The COVID images were stored in the following formats:
 
 The COVID images that we have filtered does not have `.gz` files.
 
+#### [Bacterial and Viral Pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
