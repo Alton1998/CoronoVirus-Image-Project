@@ -134,6 +134,18 @@ We run the training for the CNN model we have designed for about 30 epochs, but 
 
 <img width=600 src="training_history_fourier_loss.png" title="Training History Fourier Loss">
 
+## Evaluation of the Work
+
+The following summarises the results we have obtained:
+
+|  | Precision | Recall | F1-Score | Support |
+| ---------| --------- | ------ | -------- | ------ |
+| COVID     | 0.80    | 0.87 |     0.83     | 52   |
+| Normal   | 0.78    |  0.98 |    0.86 |   252     |
+| Pneumonia |  0.99   |   0.91  | 0.95 |    924    |
+| Accuracy |        |          |   0.93    |         1228  |
+| Macro Avg |  0.86  | 0.92 |0.88 |        1228  |
+| Weighted Avg     |    0.94    |    0.93  |   0.93  |          1228     |
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
