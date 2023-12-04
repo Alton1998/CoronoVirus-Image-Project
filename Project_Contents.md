@@ -85,6 +85,10 @@ After doing the aformentioned processes our images look something like this
 
 <img width=600 src="data_set_sample_images.png" title="X-Ray Images"/>
 
+Optionally we also use Fourier Transform, to see whether we can improve the results.
+
+<img width=600 src="" title="Fourier Images"/>
+
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
 - [2]. Mangal, A., Kalia, S., Rajgopal, H., Rangarajan, K., Namboodiri, V., Banerjee, S., & Arora, C. (2020). CovidAID: COVID-19 detection using chest X-ray. arXiv preprint arXiv:2004.09803.
