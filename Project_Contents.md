@@ -87,7 +87,7 @@ After doing the aformentioned processes our images look something like this
 
 Optionally we also use Fourier Transform, to see whether we can improve the results.
 
-<img width=600 src="" title="Fourier Images"/>
+<img width=600 src="" title="Fourier Images"/ src="data_set_fourier_images.png">
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
