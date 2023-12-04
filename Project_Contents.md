@@ -63,7 +63,7 @@ In this data set we have a collection of chest X-rays that are either annotated 
 
 After combining all the data our final data distribution looks something like this.
 
-<img width=600 src="" title="Data Distribution"/>
+<img width=600 src="data_distribution.png" title="Data Distribution"/>
 
 ### Data Preparation
 
