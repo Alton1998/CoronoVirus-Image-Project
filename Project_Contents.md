@@ -147,6 +147,15 @@ The following summarises the results we have obtained:
 | Macro Avg |  0.86  | 0.92 |0.88 |        1228  |
 | Weighted Avg     |    0.94    |    0.93  |   0.93  |          1228     |
 
+Confusion Matrix:
+
+| | COVID | Normal | Pneumonia |
+| --- | --- | --- | --- |
+| COVID |  45  |  2 | 5  |
+| Normal | 1 | 246    | 5  |
+| Pneumonia | 10  | 69 | 845  |
+
+
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
 - [2]. Mangal, A., Kalia, S., Rajgopal, H., Rangarajan, K., Namboodiri, V., Banerjee, S., & Arora, C. (2020). CovidAID: COVID-19 detection using chest X-ray. arXiv preprint arXiv:2004.09803.
