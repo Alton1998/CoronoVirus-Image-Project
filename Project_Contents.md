@@ -136,6 +136,7 @@ We run the training for the CNN model we have designed for about 30 epochs, but 
 
 ## Evaluation of the Work
 
+### CNN
 The following summarises the results we have obtained:
 
 |  | Precision | Recall | F1-Score | Support |
@@ -155,6 +156,24 @@ Confusion Matrix:
 | Normal | 1 | 246    | 5  |
 | Pneumonia | 10  | 69 | 845  |
 
+#### For our Fourier Images
+
+|  | Precision | Recall | F1-Score | Support |
+| ---------| --------- | ------ | -------- | ------ |
+| COVID     | 0.86    | 0.83 |     0.84     | 58   |
+| Normal   | 0.76    |  0.96 |    0.85 |   250     |
+| Pneumonia |  0.98   |   0.91  | 0.95 |    920    |
+| Accuracy |        |          |   0.92    |         1228  |
+| Macro Avg |  0.87  | 0.90 |0.88 |        1228  |
+| Weighted Avg     |    0.93    |    0.92  |   0.92  |          1228     |
+
+Confusion Matrix:
+
+| | COVID | Normal | Pneumonia |
+| --- | --- | --- | --- |
+| COVID |  48  |  2 | 8  |
+| Normal | 1 | 241    | 8  |
+| Pneumonia | 7  | 74 | 839  |
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
