@@ -95,6 +95,8 @@ Optionally we also use Fourier Transform, to see whether we can improve the resu
 
 <img width=600 title="Fourier Images" src="data_set_fourier_images.png"/>
 
+### Building our model
+
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
 - [2]. Mangal, A., Kalia, S., Rajgopal, H., Rangarajan, K., Namboodiri, V., Banerjee, S., & Arora, C. (2020). CovidAID: COVID-19 detection using chest X-ray. arXiv preprint arXiv:2004.09803.
