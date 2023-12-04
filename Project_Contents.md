@@ -97,6 +97,7 @@ Optionally we also use Fourier Transform, to see whether we can improve the resu
 
 ### Building our model
 
+#### CNN
 In this project, rather than use a pretrained model, we built our own CNN Model. Our CNN model architecture is as follows:
 1. Input Convulation layer: This layer has a width of 224 and height of 224 and is composed a single channel and is processed through the convolution layer witha filter size of 7 and stride of 4. 16 filters are used here. Our output dimensions here are 55x55x16
 2. 1st Hidden Convulation layer: The output dimensions in the previous layer serves as the input here. We have 32 filters in this layer with a filter size of 5 and stride of 2. Our output dimensions are then 26x26x32
@@ -114,6 +115,12 @@ In this project, rather than use a pretrained model, we built our own CNN Model.
 14. Output layer: This is a fully connected layer whose input size is 1x50 and output is 1x3.
 
 The activation used throughout except in the output layer is ReLU.
+
+### Training
+
+#### CNN
+
+We run the training for the CNN model we have designed for about 30 epochs, but the model doesn't necessary train for 30 epochs since we add an early stopping condition i.e. training is stopped as soon as validation loss exceeds the training loss. In addition to early stopping we have dropout layers in place which prevent overfitting.
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
