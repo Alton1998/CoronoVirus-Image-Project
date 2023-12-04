@@ -61,6 +61,10 @@ The COVID images that we have filtered does not have `.gz` files.
 
 In this data set we have a collection of chest X-rays that are either annotated as Pneumonia or Normal. Most of the images present in this dataset are in the AP position only. Pneumonia has about 4273 occurrences in the dataset where as normal chest X-Rays has about 1583 ocurrences.
 
+After combining all the data our final data distribution looks something like this.
+
+<img width=600 src="" title="Data Distribution"/>
+
 ### Data Preparation
 
 After collecting the data we need to ensure that images are copied to a new directory where they have the following structure:
