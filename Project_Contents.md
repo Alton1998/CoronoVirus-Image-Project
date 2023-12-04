@@ -100,10 +100,13 @@ Optionally we also use Fourier Transform, to see whether we can improve the resu
 In this project, rather than use a pretrained model, we built our own CNN Model. Our CNN model architecture is as follows:
 1. Input Convulation layer: This layer has a width of 224 and height of 224 and is composed a single channel and is processed through the convolution layer witha filter size of 7 and stride of 4. 16 filters are used here. Our output dimensions here are 55x55x16
 2. First Hidden Convulation layer: The output dimensions in the previous layer serves as the input here. We have 32 filters in this layer with a filter size of 5 and stride of 2. Our output dimensions are then 26x26x32
-3. First Max Pool Layer: The output of the previous layer is then subject to maxpooling where the kernel size is 3 and stride is 2. There are no changes to the output dimensions in this layer.
-4. First Batch Norm layer: Batch Normalisation is performed here to speed up the learning process.
-5. 2nd Hidden Convolution layer: The input size here is 26x26x32 which then undergoes convolution through 64 filters with kernel size of 3 and stride of 1. The output dimension here then would be 10x10x64
+3. First Max Pooling Layer: The output of the previous layer is then subject to maxpooling where the kernel size is 3 and stride is 2. The out put dimensions here are 12x12x32
+4. First Batch Normalisation layer: Batch Normalisation is performed here to speed up the learning process. Output dimensions are the same as the input dimensions.
+5. 2nd Hidden Convolution layer: The input size here is 12x12x32 which then undergoes convolution through 64 filters with kernel size of 3 and stride of 1. The output dimension here then would be 10x10x64
 6. 3rd Hidden Convolution layer: The input size is 10x10x64 which then undergoes convolution through 128 filters of kernel size 3 with a stride of 1. The output dimension here would then be 8x8x128
+7. 2nd Max Pool layer: The input size is 8x8x128 which undergoes max pooling against kernel of size 3 with stride 1. The output dimension produced here is 6x6x128
+8. 2nd Batch Normalisation layer: Batch Normalisation is performed here to speed up the learning process. Output dimensions are the same as the input dimensions.
+9. Flatten Layer: The output of the Batch Normalisation layer is then flattened 
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
