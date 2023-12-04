@@ -74,12 +74,12 @@ my_data
    |-NORMAL
    |-PNEUMONIA
 ```
+We perform the following transformations on the images:
 
-
-
-1. All the images have the same number of channels, i.e. all the images should either be in RGB or grayscale. For this project we are going to convert all images to grayscale.
-2. All the images have the same dimensions i.e. 224x224
-3. 
+1. GrayScale Conversion - All the images have the same number of channels, i.e. all the images should either be in RGB or grayscale. For this project we are going to convert all images to grayscale.
+2. Resize - All the images have the same dimensions i.e. 224x224
+3. Center Crop - Crops a given image at the center
+4. Normalize - Normalize a given image with mean = 0.5 and standard deviation = 0.5
 
 
 ## References
