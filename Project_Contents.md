@@ -122,6 +122,10 @@ The activation used throughout except in the output layer is ReLU.
 
 We run the training for the CNN model we have designed for about 30 epochs, but the model doesn't necessary train for 30 epochs since we add an early stopping condition i.e. training is stopped as soon as validation loss exceeds the training loss. In addition to early stopping we have dropout layers in place which prevent overfitting.
 
+##### Training History
+
+<img width=600 src="training_history.png" title="Training History"/>
+
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
 - [2]. Mangal, A., Kalia, S., Rajgopal, H., Rangarajan, K., Namboodiri, V., Banerjee, S., & Arora, C. (2020). CovidAID: COVID-19 detection using chest X-ray. arXiv preprint arXiv:2004.09803.
