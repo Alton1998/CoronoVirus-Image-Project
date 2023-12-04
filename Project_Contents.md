@@ -78,6 +78,8 @@ my_data
    |-NORMAL
    |-PNEUMONIA
 ```
+20% of the dataset is reserved for testing and 20% of the training data is used for validation.
+
 We perform the following transformations on the images:
 
 1. GrayScale Conversion - All the images have the same number of channels, i.e. all the images should either be in RGB or grayscale. For this project we are going to convert all images to grayscale.
