@@ -59,6 +59,16 @@ The COVID images that we have filtered does not have `.gz` files.
 
 #### [Bacterial and Viral Pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
+In this data set we have a collection of chest X-rays that are either annotated as Pneumonia or Normal. Most of the images present in this dataset are in the AP position only. Pneumonia has about 4273 occurrences in the dataset where as normal chest X-Rays has about 1583 ocurrences.
+
+### Data Preparation
+
+After collecting the data we need to ensure that images are copied to a new directory where they have the following structure.
+
+1. All the images have the same number of channels, i.e. all the images should either be in RGB or grayscale. For this project we are going to convert all images to grayscale.
+2. All the images have the same dimensions i.e. 224x224
+3. 
+
 
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
