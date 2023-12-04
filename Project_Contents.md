@@ -63,7 +63,19 @@ In this data set we have a collection of chest X-rays that are either annotated 
 
 ### Data Preparation
 
-After collecting the data we need to ensure that images are copied to a new directory where they have the following structure.
+After collecting the data we need to ensure that images are copied to a new directory where they have the following structure:
+
+```
+my_data
+|-test
+|-train
+|-val
+   |-COVID-19
+   |-NORMAL
+   |-PNEUMONIA
+```
+
+
 
 1. All the images have the same number of channels, i.e. all the images should either be in RGB or grayscale. For this project we are going to convert all images to grayscale.
 2. All the images have the same dimensions i.e. 224x224
