@@ -128,6 +128,10 @@ We run the training for the CNN model we have designed for about 30 epochs, but 
 
 <img width=600 src="training_history_loss.png" title="Training History loss"/>
 
+##### Training History with Fourier Images
+
+
+
 ## References
 - [1]. ist COVID, W. What is COVID-19?.
 - [2]. Mangal, A., Kalia, S., Rajgopal, H., Rangarajan, K., Namboodiri, V., Banerjee, S., & Arora, C. (2020). CovidAID: COVID-19 detection using chest X-ray. arXiv preprint arXiv:2004.09803.
