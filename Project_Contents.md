@@ -30,7 +30,7 @@ Coronet[4], which is a Deep Convolutional Neural Network model to that automatic
 
 "Automated detection of COVID-19 cases using deep neural networks with X-ray images"[5], makes use of deep neural networks. However, the emodel so developed here was experimented for 2 class classification(COVID, No Findings) and 3 class classification(COVID, No findings, Pneumonia). The paper has implemented a DarkNet model that uses a you only look onece realtime object detection system and has achieved an accuracy of 98% for binary classification and 87% for multiclass classification.
 
-COVID-NET[6], its the first open source network design for chest X-ray Images. In addition to this the study creates a database for COVID-19 against which we can bench mark our models and saves the trouble for creating the dataset. Transfer Learning approach was undertaken here where the COVID-NET model was first pretrained on Imagenet and then on the COVIDx dataset. 3 classes was used for classification and a comparison was done against other pretrained models like ResNET-50 and VGG-10 and COVID-NET was found to perform better than these models. The number of parameters and mathematical operation used in COVID-NET was less compared to ResNET-50 and VGG-19.
+COVID-NET[10], its the first open source network design for chest X-ray Images. In addition to this the study creates a database for COVID-19 against which we can bench mark our models and saves the trouble for creating the dataset. Transfer Learning approach was undertaken here where the COVID-NET model was first pretrained on Imagenet and then on the COVIDx dataset. 3 classes was used for classification and a comparison was done against other pretrained models like ResNET-50 and VGG-10 and COVID-NET was found to perform better than these models. The number of parameters and mathematical operation used in COVID-NET was less compared to ResNET-50 and VGG-19.
 
 ## Implemented Method
 
@@ -40,7 +40,7 @@ In our project we will have the following tasks:
 
 For our project we will be collecting data from 2 data sources:
 
-1. [Covid 19 X-Ray DataSet](https://github.com/ieee8023/covid-chestxray-dataset) [7]
+1. [Covid 19 X-Ray DataSet](https://github.com/ieee8023/covid-chestxray-dataset) [11]
 2. [Bacterial and Viral Pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
 #### [Covid 19 X-Ray DataSet](https://github.com/ieee8023/covid-chestxray-dataset)
@@ -76,6 +76,5 @@ After collecting the data we need to ensure that images are copied to a new dire
 - [3]. Narin, A., Kaya, C., & Pamuk, Z. (2021). Automatic detection of coronavirus disease (covid-19) using x-ray images and deep convolutional neural networks. Pattern Analysis and Applications, 24, 1207-1220.
 - [4]. Khan, A. I., Shah, J. L., & Bhat, M. M. (2020). CoroNet: A deep neural network for detection and diagnosis of COVID-19 from chest x-ray images. Computer methods and programs in biomedicine, 196, 105581.
 - [5]. Ozturk, T., Talo, M., Yildirim, E. A., Baloglu, U. B., Yildirim, O., & Acharya, U. R. (2020). Automated detection of COVID-19 cases using deep neural networks with X-ray images. Computers in biology and medicine, 121, 103792.
-- [6]. Wang, L., Lin, Z. Q., & Wong, A. (2020). Covid-net: A tailored deep convolutional neural network design for detection of covid-19 cases from chest x-ray images. Scientific reports, 10(1), 19549.
-- [7]. Cohen, J. P., Morrison, P., & Dao, L. (2020). COVID-19 image data collection. arXiv preprint arXiv:2003.11597.
-- 
+- [10]. Wang, L., Lin, Z. Q., & Wong, A. (2020). Covid-net: A tailored deep convolutional neural network design for detection of covid-19 cases from chest x-ray images. Scientific reports, 10(1), 19549.
+- [11]. Cohen, J. P., Morrison, P., & Dao, L. (2020). COVID-19 image data collection. arXiv preprint arXiv:2003.11597.
