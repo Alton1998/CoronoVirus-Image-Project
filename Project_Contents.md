@@ -130,6 +130,9 @@ We run the training for the CNN model we have designed for about 30 epochs, but 
 
 ##### Training History with Fourier Images
 
+<img width=600 src="training_history_fourier.png" title="Training History Fourier"/>
+
+<img width=600 src="training_history_fourier_loss.png" title="Training History Fourier Loss">
 
 
 ## References
